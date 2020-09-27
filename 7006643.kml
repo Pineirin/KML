@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>PantPantà del Foix Side Trail</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7006643/pantpanta-del-foix-side-trail</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>1.652253,41.255742,97.05 1.651625,41.255762,97.01 1.651211,41.255674,97.52 1.650825,41.255465,98.86 1.650547,41.25512,100.72 1.65034,41.254789,102.57 1.649406,41.254648,104.08 1.649073,41.254438,105.12 1.649064,41.254215,105.73 1.648687,41.253837,106.13 1.648211,41.253527,106.22 1.647825,41.253358,105.9 1.64751,41.253398,105.52 1.647223,41.253263,105.37 1.64707,41.253135,105.4 1.646235,41.253452,105.54 1.645426,41.253601,105.77 1.644663,41.253486,106.08 1.644133,41.253142,106.39 1.644097,41.252703,106.57 1.64424,41.25252,106.63 1.643836,41.252297,106.77 1.643692,41.252088,107.34 1.643135,41.252284,108.77 1.643162,41.25252,111.19 1.642938,41.252608,114.02 1.641932,41.252297,116.16 1.641545,41.252142,116.92 1.640917,41.251723,116.41 1.640333,41.25146,115.12 1.639821,41.251345,113.47 1.639452,41.251129,111.79 1.639246,41.251061,110.51 1.639138,41.251163,110 1.639228,41.251399,110.23 1.639291,41.251744,110.86 1.639812,41.252183,111.56 1.639713,41.252385,112.17 1.6393,41.252736,112.6 1.63903,41.253054,112.79 1.638734,41.253182,112.89 1.638024,41.253243,113.12 1.637916,41.253371,113.44 1.638294,41.253878,113.65 1.638446,41.25402,113.62 1.638267,41.254128,113.44 1.637269,41.254161,113.52 1.636955,41.254377,114.22 1.636964,41.254573,115.48 1.637593,41.255073,116.96 1.637674,41.25533,118.49 1.637548,41.255539,119.53</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

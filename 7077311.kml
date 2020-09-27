@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Parque Forestal los Cerros: Ruta de Tamarix</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7077311/parque-forestal-los-cerros-ruta-de-tamarix</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-3.359816,40.463211,594.61 -3.359879,40.463348,593.79 -3.359591,40.463656,592.45 -3.359582,40.46382,590.62 -3.359798,40.464366,588.8 -3.359789,40.464708,587.61 -3.359573,40.464968,587.17 -3.359466,40.465016,587.7 -3.35934,40.465036,590.44 -3.358882,40.465009,595.46 -3.356726,40.464708,600.23 -3.356492,40.464715,603.44 -3.35598,40.464797,605.65 -3.355432,40.46492,607.26 -3.355279,40.464859,608.5 -3.355208,40.464626,609.48 -3.354956,40.464729,610.5 -3.354758,40.464852,612.13 -3.353986,40.464968,614.13 -3.352674,40.465248,615.5 -3.352549,40.465248,615.58 -3.352144,40.465057,614.75 -3.351857,40.464777,613.55 -3.351587,40.464578,611.94 -3.351273,40.464401,609.79 -3.350932,40.464257,607.17 -3.350438,40.463902,604.61 -3.35033,40.463786,602.62 -3.350321,40.463622,601.37 -3.350429,40.463348,600.56 -3.350527,40.463191,599.61 -3.351048,40.462719,598.8 -3.351084,40.462617,598.44 -3.35103,40.462309,597.89 -3.351156,40.462166,597.06 -3.352171,40.462056,595.92 -3.352917,40.461817,594.83 -3.353204,40.46168,594.34 -3.353312,40.46168,594.09 -3.353788,40.461865,593.82 -3.353914,40.461988,593.45 -3.354498,40.462296,592.78 -3.354938,40.462316,591.79 -3.35554,40.462296,590.71 -3.356034,40.462501,589.54 -3.356618,40.462549,588.31 -3.356869,40.46259,587.14 -3.357274,40.462706,586.3 -3.357444,40.462836,585.84 -3.357858,40.463396,585.36 -3.358064,40.463635,584.97 -3.358388,40.463751,584.85 -3.358522,40.463868,584.64 -3.358981,40.464107,584.47 -3.359259,40.464325,584.79 -3.359537,40.464681,585.67 -3.359798,40.464647,586.43</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

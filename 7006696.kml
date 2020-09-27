@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Olive Field Descent</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7006696/olive-field-descent</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>1.620983,41.234938,179.78 1.621567,41.234229,176.9 1.62198,41.234161,173.16 1.622384,41.234148,168.95 1.623175,41.234377,164.61 1.623435,41.23431,160.29 1.623696,41.233979,156.03 1.623974,41.234128,151.9 1.624127,41.234398,148.08 1.623938,41.234796,145.1 1.623732,41.234979,143.01 1.623462,41.234979,140.87 1.623292,41.235026,137.96 1.623768,41.235148,134.61 1.624675,41.235019,131.59 1.625142,41.234911,129.16 1.62534,41.234675,126.77 1.625448,41.234445,124.08 1.626508,41.233634,121.43 1.626687,41.233303,119.29 1.626948,41.233087,117.24 1.627442,41.232905,115.68</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

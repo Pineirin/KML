@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Pla des Pouet Road</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7041454/pla-des-pouet-road</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>2.788263,39.729317,568.99 2.787221,39.728647,573.65 2.787077,39.728737,578.29 2.7874,39.729165,583.31 2.787014,39.730188,588.04 2.786933,39.730188,591.97 2.786933,39.729939,594.95 2.786799,39.729946,596.77 2.786772,39.730277,599.13 2.786601,39.730347,603.11 2.786448,39.730146,607.68 2.786394,39.72987,611.84 2.78626,39.729946,615.35 2.785972,39.730568,618.54 2.785864,39.730568,620.81 2.785999,39.72996,621.13 2.786098,39.729718,621.47 2.786071,39.729476,624.35 2.785514,39.729448,628.49 2.78555,39.729787,631.74 2.785649,39.729897,634.09 2.785604,39.730008,636.07 2.785523,39.730056,639.04 2.785289,39.730519,643.87 2.784921,39.731017,648.05 2.78484,39.731017,649.05 2.784939,39.730747,647.82 2.785128,39.730505,647.08 2.78511,39.730471,648.6 2.784867,39.730678,652.62 2.784688,39.73092,658.59 2.784544,39.731286,664.36 2.784544,39.731687,666.93 2.784804,39.732025,666.88 2.785191,39.73235,667.34 2.785209,39.732592,668.56 2.785128,39.732578,669.4 2.785056,39.732419,671.03 2.784903,39.732267,674.8 2.784526,39.732039,679.67 2.784373,39.732025,683.18 2.784391,39.732191,684.85 2.784616,39.732357,686.99 2.78467,39.732695,690.09 2.785271,39.733732,691.58 2.785487,39.733877,690.56 2.786313,39.734125,689.75 2.786879,39.734402,691.24 2.786861,39.734637,693.58 2.786682,39.734761,695 2.786691,39.735058,695.55</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

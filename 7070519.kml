@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Comapedrosa Alternate</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7070519/comapedrosa-alternate</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>1.436478,42.585771,2625.88 1.436774,42.586055,2633.29 1.436918,42.586498,2642.02 1.437242,42.586856,2650.24 1.437394,42.586961,2657.84 1.437628,42.586915,2665.59 1.437754,42.586948,2674.41 1.437799,42.586796,2684.33 1.438311,42.586657,2694.38 1.438544,42.586505,2703.5 1.438921,42.586578,2711.2 1.439002,42.586618,2717.56 1.439182,42.586598,2722.75 1.439326,42.586697,2726.93 1.439317,42.586776,2730.51 1.439407,42.586776,2734.51 1.439389,42.586829,2740.67 1.439586,42.586869,2750.29 1.439712,42.587067,2763.71 1.440916,42.587649,2782.73 1.44105,42.587649,2806.88 1.442362,42.588721,2830.32 1.442506,42.588906,2850.02 1.442631,42.588965,2866.43 1.443197,42.589838,2879.28 1.443233,42.590057,2888.78 1.443314,42.590176,2895.85 1.443314,42.590282,2901.26 1.443512,42.590731,2905.34 1.443386,42.590778,2908.27 1.443386,42.590949,2910.28 1.443476,42.591102,2911.96 1.44344,42.591148,2913.07 1.443548,42.591267,2913.53 1.443458,42.591459,2914.78 1.443431,42.591637,2916.15</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

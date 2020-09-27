@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Font d'Horta Path</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7006700/font-dhorta-path</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>1.628026,41.249137,209.39 1.62852,41.249427,209.85 1.628879,41.249589,210.34 1.630855,41.249792,208.13 1.631233,41.250494,202.88 1.631089,41.250866,196.46 1.631035,41.251676,190.56 1.630811,41.251683,185.6 1.630631,41.251825,180.85 1.630469,41.251885,175.91 1.630236,41.252304,169.27 1.630002,41.252432,162.17 1.629966,41.252871,157.11 1.629715,41.253216,153.45 1.629616,41.253432,150.42 1.629912,41.253783,147.24 1.629903,41.254107,143.66 1.629472,41.254513,139.76 1.629382,41.254688,135.66 1.62896,41.255154,131.94 1.628924,41.255782,129.24 1.629176,41.256586,127.68 1.629391,41.256694,126.62 1.629715,41.257052,124.97 1.629822,41.257119,122.6 1.629795,41.257855,120.91</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

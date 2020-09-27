@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Singletrack Ascent</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7006695/singletrack-ascent</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>1.627487,41.232885,124.18 1.627666,41.233844,131.55 1.627514,41.234344,138.34 1.627244,41.23485,144.67 1.626606,41.235688,150.37 1.626382,41.236654,156.1 1.626337,41.237086,162.45 1.626023,41.238289,168.52 1.625502,41.238714,173.21 1.625304,41.238971,176.44 1.625052,41.239099,178.82 1.624594,41.239559,181.03 1.624181,41.239883,183.68 1.623983,41.240126,187.51 1.623714,41.240302,193.03 1.623283,41.240971,199.77 1.622438,41.241457,206.39 1.621998,41.241572,211.81 1.621684,41.24193,216 1.621756,41.2422,219.47 1.621567,41.242051,222.45 1.621486,41.241761,225.13 1.621549,41.241524,227.9 1.621333,41.241538,231.08 1.62119,41.241639,234.08 1.621082,41.241835,236.33 1.621037,41.242099,238.99 1.621136,41.242767,242.54 1.62119,41.242848,245</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

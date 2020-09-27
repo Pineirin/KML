@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Senda dos encomendeiros</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7052932/senda-dos-encomendeiros</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-8.103738,43.416397,21.74 -8.103289,43.416553,25.6 -8.102247,43.415614,28.3 -8.101205,43.414668,24.12 -8.100756,43.413702,17.22 -8.10089,43.413226,17.89 -8.100154,43.412436,24.13 -8.099085,43.412443,28.53 -8.097971,43.412625,30.13 -8.096417,43.413128,28.97 -8.095528,43.413617,27.7 -8.094728,43.414178,29.86 -8.09392,43.414452,32.02 -8.092788,43.414629,31.49 -8.091773,43.414446,28.32 -8.09144,43.414139,28.59 -8.091009,43.413885,30.06 -8.090955,43.412919,28.72 -8.090991,43.41119,29.1 -8.090973,43.410269,26.69 -8.090955,43.409343,29.71 -8.090506,43.408579,32.76 -8.091144,43.407783,29.29 -8.090937,43.407235,28.69 -8.089284,43.406452,28.81 -8.087991,43.40591,29.15 -8.087056,43.405675,31.34 -8.086212,43.406093,34.39 -8.085592,43.406484,34.83 -8.084595,43.407391,34.15 -8.083796,43.408077,39.31 -8.083463,43.408749,46.96 -8.08252,43.409728,49.45 -8.081568,43.410707,50.14 -8.079852,43.41117,51.71 -8.078127,43.411627,53.46 -8.076393,43.412664,53.73 -8.07466,43.413695,54.42 -8.072926,43.414739,57.28 -8.071192,43.415777,59.78 -8.071093,43.416266,60.44 -8.070608,43.416619,61.56 -8.069396,43.416952,64.21 -8.068183,43.417278,67.01 -8.068282,43.417597,68.63</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

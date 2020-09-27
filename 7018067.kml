@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Riera de Sant Medi Trail</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7018067/riera-de-sant-medi-trail</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>2.125288,41.434688,375.13 2.125064,41.434796,372.6 2.124911,41.434573,370.01 2.12474,41.434567,368.11 2.124596,41.434627,367.05 2.124507,41.434331,366.28 2.123599,41.433927,365.28 2.123177,41.433812,363.84 2.123105,41.433678,361.91 2.123375,41.433307,359.43 2.123321,41.433213,356.37 2.123087,41.433287,352.86 2.122692,41.433671,349.11 2.122593,41.433866,345.11 2.122647,41.434385,340.62 2.122863,41.434708,335.5 2.122575,41.434701,330.26 2.122225,41.434641,326.01 2.122099,41.434493,323.48 2.122171,41.434654,321.83 2.122315,41.434755,319.31 2.122467,41.434802,315.18 2.1228,41.435442,310.17 2.122935,41.43559,305.44 2.123042,41.435577,301.77 2.123087,41.435651,299.81 2.123222,41.435604,299.74 2.123357,41.435658,300.1 2.123752,41.43561,298.73 2.123312,41.435967,295.11 2.122647,41.436223,290.39 2.122171,41.436345,285.58 2.12174,41.436324,280.64 2.12147,41.43658,275.6 2.121551,41.43755,271.52 2.121381,41.437644,269.3 2.121228,41.437409,268.58 2.121201,41.437092,268.34 2.120886,41.436957,267.94 2.120707,41.436917,267.24 2.120635,41.436816,265.96 2.120554,41.436782,263.27 2.120725,41.436331,258.49 2.120392,41.436641,252.31 2.120419,41.438237,246.45 2.120491,41.438648,242.55 2.120599,41.438937,241.14 2.120761,41.439025,241.36 2.121237,41.438641,242.07 2.121461,41.438325,242.37 2.121372,41.439146,241.47 2.121381,41.439806,239 2.121345,41.440008,235.4 2.121731,41.441166,232.79</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

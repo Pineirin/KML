@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Andratx Mountain Trail</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7043724/andratx-mountain-trail</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>2.35355,39.573156,25.27 2.353451,39.573122,24.15 2.353442,39.572921,24.03 2.352697,39.572436,22.37 2.352373,39.572353,19.08 2.352239,39.572367,15.49 2.351987,39.572187,12.58 2.352122,39.572166,13.15 2.352023,39.572021,17.7 2.352319,39.572007,23.51 2.352481,39.572041,28.31 2.352625,39.571944,31.83 2.352921,39.571979,34.32 2.352894,39.571965,36.61 2.353101,39.571965,39 2.353137,39.572,41.04 2.353227,39.571827,42.58 2.353137,39.571771,44.03 2.353281,39.571667,46.27 2.353343,39.57139,48.44 2.353146,39.57119,49.41 2.353047,39.571037,50.73 2.352867,39.57056,53.34 2.352679,39.570262,56.42 2.352769,39.570199,59.5 2.352813,39.570068,63.63 2.352912,39.570026,69.02 2.353002,39.569819,74.39 2.353137,39.569611,78.96 2.35293,39.569479,83.69 2.352867,39.569368,87.5 2.35293,39.569272,88.39 2.352301,39.569015,89.05 2.351969,39.568731,90.23</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Roc de la Madriu</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7072398/roc-de-la-madriu</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>2.230966,42.507359,1071.62 2.23058,42.507465,1070.01 2.229942,42.508068,1067.38 2.229313,42.508266,1066.13 2.229098,42.508598,1067.31 2.228666,42.508697,1069.94 2.227813,42.508617,1071.69 2.227768,42.508856,1071.72 2.227409,42.50871,1065.36 2.226438,42.50875,1058.41 2.225998,42.508498,1055.52 2.225612,42.508598,1052.44 2.225513,42.50877,1051.12 2.224839,42.508829,1052.57 2.224516,42.509306,1048.61 2.224678,42.509796,1040.97 2.224309,42.5102,1038.56 2.224552,42.510306,1037.3 2.224597,42.510531,1036.66 2.224318,42.510955,1040.15 2.22537,42.511836,1043.49 2.22563,42.511915,1040.22 2.224768,42.511915,1034.92 2.224534,42.512147,1028.22 2.224884,42.512207,1015.55 2.223986,42.513617,1005.57 2.223384,42.513855,1007.29 2.222684,42.513756,1015.12 2.222118,42.513988,1018.6 2.221983,42.514186,1014.99 2.222109,42.515345,1007.71 2.222028,42.51608,998.51 2.222414,42.516345,989.88 2.222163,42.516921,975.49 2.222414,42.517557,958.59 2.222046,42.517921,947.9 2.222531,42.517769,943.89 2.222064,42.518272,938.07 2.222764,42.517967,931.06 2.223016,42.518047,932.44 2.22342,42.517828,935.13</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

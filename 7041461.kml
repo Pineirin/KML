@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>GR 221: Puig d'Alaró</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7041461/gr-221-puig-dalaro</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>2.791003,39.729538,523.27 2.791578,39.729421,528 2.791066,39.729856,533.64 2.791093,39.729939,539.2 2.79085,39.73016,544.59 2.79094,39.730236,549.68 2.790742,39.730416,554.86 2.790958,39.730429,560.63 2.790769,39.730671,566.32 2.791389,39.730505,571.55 2.791829,39.730319,578.51 2.792458,39.730188,587.38 2.793446,39.729877,595.53 2.793743,39.729697,606.37 2.794156,39.729669,622.18 2.793554,39.730616,636.9 2.793078,39.730975,647.59 2.792898,39.731231,657.05 2.792287,39.731618,667.87 2.791443,39.732509,680 2.792404,39.732039,692.69 2.791973,39.732647,704.98 2.792629,39.732391,715.15 2.792206,39.732916,723.18 2.792404,39.732875,728.08 2.792126,39.733366,728.07 2.791506,39.733745,726.59 2.792108,39.733787,729.07 2.792278,39.73358,735.01 2.792638,39.733407,740.6 2.792763,39.732806,746.88 2.793006,39.73253,755.42 2.793419,39.732537,763.14 2.793626,39.732378,768.73 2.793778,39.732357,773.35 2.793922,39.732467,777.19 2.794326,39.732157,777.85 2.79438,39.731998,773.37 2.794111,39.731735,768.85 2.794246,39.731549,769.24 2.794596,39.731666,770.8 2.794901,39.731556,770.22 2.794865,39.731286,769.63 2.795243,39.731238,770.53 2.795449,39.731265,771.95 2.795791,39.731431,772.61 2.796276,39.731417,772.66</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

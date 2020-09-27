@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>El Garbi Parc Natural de la Serra Calderona</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7090198/el-garbi-parc-natural-de-la-serra-calderona</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-0.376152,39.697468,553.43 -0.37564,39.697336,555.8 -0.375136,39.697267,559.04 -0.374624,39.697136,562.71 -0.374121,39.697067,564.98 -0.373996,39.696977,566.1 -0.373537,39.696901,567.64 -0.373304,39.696887,570.05 -0.372684,39.696776,572.68 -0.372334,39.696645,575.4 -0.371938,39.696687,577.71 -0.371822,39.69668,578.79 -0.371624,39.696569,579.33 -0.371301,39.6967,579.61 -0.371346,39.697025,579.81 -0.371319,39.697198,579.94 -0.371399,39.697267,579.22 -0.371274,39.697371,577.92 -0.371022,39.697419,577.55 -0.370321,39.697018,573.29 -0.369666,39.696887,563.62 -0.369558,39.696977,553.06 -0.36936,39.696887,544.17 -0.369163,39.696901,539.85 -0.369172,39.697025,542.48 -0.369351,39.697157,548.77 -0.36945,39.69715,555.87 -0.369666,39.696887,564.24 -0.370304,39.697018,568.93 -0.370941,39.697378,567.75 -0.370636,39.698297,564.28 -0.37104,39.698629,561.16 -0.371588,39.698739,558.31 -0.37157,39.698815,555.57 -0.371786,39.698905,553.34 -0.371894,39.698905,551.2 -0.372154,39.698988,548.93 -0.372307,39.699258,547.15 -0.372594,39.699327,545.14 -0.372711,39.699437,542.28 -0.372783,39.699818,539.66 -0.372846,39.699866,538.24 -0.372998,39.699887,538.17 -0.373376,39.699638,539.07 -0.373439,39.699541,540.25 -0.37378,39.699285,540.95 -0.373744,39.699306,540.75 -0.373861,39.699306,540.5 -0.374274,39.699196,541.52 -0.374544,39.69894,543.21 -0.374624,39.698767,544.53 -0.374606,39.698836,545.96 -0.375334,39.6982,547.55 -0.375541,39.697951,548.83 -0.375882,39.697668,549.62 -0.376026,39.69762,550.29 -0.376089,39.697468,550.84</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

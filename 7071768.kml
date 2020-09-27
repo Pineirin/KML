@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Trilho dos Socalcos de Sistelo</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7071768/trilho-dos-socalcos-de-sistelo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-8.357791,41.978791,460.89 -8.358312,41.978838,453.94 -8.358599,41.979085,446.93 -8.357773,41.979426,438.62 -8.357593,41.979766,425.53 -8.357952,41.980988,410.9 -8.357647,41.981275,395.7 -8.358393,41.981275,378.18 -8.359084,41.981496,361.57 -8.359776,41.982237,349.04 -8.360009,41.98225,341.08 -8.360234,41.981709,338.17 -8.359731,41.981349,338.04 -8.359587,41.981175,335.59 -8.359641,41.981008,330.38 -8.360809,41.981235,327.17 -8.362255,41.980901,327.64 -8.363127,41.980347,330.44 -8.363755,41.979726,334.35 -8.365211,41.979506,338.02 -8.365786,41.979165,337.27 -8.36654,41.978517,326.38 -8.366837,41.977395,309.43 -8.36743,41.976207,295.4 -8.36796,41.975819,285.15 -8.368382,41.975265,275.33 -8.369936,41.974751,264.25 -8.371373,41.974697,256.35</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

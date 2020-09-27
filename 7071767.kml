@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Trilho dos Passadiços</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7071767/trilho-dos-passadicos</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-8.376359,41.972841,252.1 -8.376476,41.972507,252.26 -8.377069,41.972186,251.34 -8.378137,41.971806,248.28 -8.378281,41.971525,243.31 -8.378452,41.971472,237.74 -8.379009,41.971518,233.31 -8.379296,41.971338,230.24 -8.379835,41.971418,227.86 -8.380311,41.971538,226.48 -8.380958,41.971485,225.37 -8.381866,41.970917,222.75 -8.382261,41.970757,218.87 -8.382297,41.97081,214.93 -8.382081,41.971071,211.89 -8.382117,41.971351,211.55 -8.382458,41.971485,214.69 -8.38218,41.972166,220.62 -8.381973,41.972527,227.79 -8.381722,41.972727,230.94 -8.381327,41.972807,227.22 -8.379566,41.972467,222.28 -8.378703,41.972647,220.51 -8.378146,41.972981,221.37 -8.377769,41.973335,222.65</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

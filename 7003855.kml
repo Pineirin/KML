@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Corriol de la Font Blava</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7003855/corriol-de-la-font-blava</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>2.414851,41.554765,138.99 2.414564,41.554785,137.04 2.414384,41.554745,135.19 2.414195,41.554772,133.35 2.414177,41.554947,132.08 2.414249,41.555,131.15 2.41424,41.555135,129.79 2.414339,41.555357,128.37 2.414456,41.555498,126.62 2.41451,41.555646,124.42 2.414474,41.5558,121.19 2.414222,41.555888,115.58 2.413935,41.556143,112.96 2.414492,41.556526,114.81 2.414528,41.5566,117.93 2.41389,41.55691,121.08 2.413629,41.556997,122.06 2.41345,41.557017,121.18 2.413234,41.55699,117.88 2.412767,41.557064,114.17 2.412794,41.557165,112.96 2.413504,41.557629,113.34 2.413881,41.55783,112.77 2.414465,41.558234,111.82 2.41468,41.558294,111 2.415148,41.558644,112.25 2.415767,41.55898,115.64 2.415821,41.559134,118.39 2.415776,41.559269,119.24 2.414447,41.559592,117.67 2.41424,41.560102,117.21 2.414186,41.560391,118.29 2.413935,41.560378,118.93 2.413728,41.560297,119.09 2.413225,41.560318,118.17 2.41274,41.560519,116.22 2.412291,41.560432,114.62 2.411752,41.560116,113.38 2.411348,41.560062,111.51 2.411186,41.560311,109.41 2.411285,41.560674,107.16 2.411689,41.561312,106.09 2.412012,41.561521,108.6 2.412749,41.561729,111.72 2.412884,41.561803,112.98 2.412893,41.561964,113.99 2.41309,41.562032,116.1 2.412857,41.562354,118.95 2.412498,41.56269,121.39 2.412551,41.562744,125.19 2.413081,41.562852,128.61 2.413099,41.562825,130.92 2.413216,41.562973,133.53 2.413189,41.563013,134.36 2.412875,41.562973,134.98 2.412614,41.563107,136.47 2.412507,41.563262,138.1 2.412596,41.56351,137.5 2.412516,41.563779,134.46 2.412641,41.564068,131.61 2.413028,41.564391,129.58 2.413594,41.564539,127.42 2.413773,41.564774,125.58 2.413998,41.564895,127.4 2.414797,41.565164,132.57 2.415372,41.565641,136.49</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

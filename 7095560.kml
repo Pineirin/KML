@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>New Trail</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7095560/new-trail</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-7.772574,39.952265,770.97 -7.771577,39.952906,772.64 -7.771029,39.953656,774.25 -7.771029,39.953987,776.54 -7.771092,39.954338,780.59 -7.770912,39.954889,785.13 -7.77093,39.955137,789.52 -7.770876,39.955281,795.19 -7.770885,39.955708,802.97 -7.771173,39.956583,811.12 -7.77146,39.957457,816.71 -7.77164,39.957898,820.28 -7.77173,39.958029,825.32 -7.771658,39.958311,832.77 -7.771487,39.958366,840.71 -7.771326,39.958256,847.91 -7.771092,39.958036,854.18 -7.770885,39.95796,859.4 -7.770787,39.958166,857.21 -7.770616,39.95816,851.18</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

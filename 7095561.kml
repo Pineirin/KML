@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>New Trail</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7095561/new-trail</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-7.773104,39.960976,753.9 -7.772143,39.960996,754.99 -7.771164,39.961217,755.85 -7.770526,39.961437,757.55 -7.770373,39.961396,761.11 -7.770131,39.961396,766.84 -7.769736,39.961657,773.72 -7.769116,39.962346,779.83 -7.769026,39.962298,785.25 -7.769008,39.961919,790.7 -7.768891,39.961547,795.47 -7.7689,39.961327,799.09 -7.768613,39.960831,802.2 -7.768729,39.960618,805.29 -7.768819,39.960177,808.78 -7.768972,39.960115,814.01 -7.769529,39.959626,823.43 -7.77005,39.959275,837.41 -7.770355,39.958407,850.88 -7.770571,39.958208,859.69 -7.770589,39.958139,863.12 -7.77031,39.957925,860.64 -7.769664,39.957127,854.53 -7.7697,39.956039,848.55 -7.769322,39.955467,842.63 -7.769412,39.955137,835.65 -7.769295,39.954359,829.41 -7.769188,39.954145,825.21 -7.768837,39.953849,822.84 -7.76881,39.953339,822.18 -7.768675,39.953126,823.45 -7.768667,39.952995,826.16 -7.767633,39.9517,828.87 -7.767301,39.95148,832.21 -7.766906,39.950867,836.92 -7.766394,39.949407,841.02 -7.766169,39.948925,842.71 -7.765828,39.948457,843.83 -7.765397,39.947995,841.45 -7.764903,39.94719,828.97 -7.764364,39.947321,812.55 -7.763384,39.94648,799 -7.762738,39.94542,794.34 -7.762792,39.944752,786.17 -7.762055,39.943588,780.14 -7.762405,39.942851,778.67 -7.762154,39.941845,771.71</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>

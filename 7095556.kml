@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml>
+	<Document>
+		<Schema id="temp"/>
+		<SimpleField name="time" type="string"/>
+		<SimpleField name="magvar" type="double"/>
+		<SimpleField name="geoidheight" type="double"/>
+		<SimpleField name="cmt" type="string"/>
+		<SimpleField name="desc" type="string"/>
+		<SimpleField name="src" type="string"/>
+		<SimpleField name="sym" type="string"/>
+		<SimpleField name="type" type="string"/>
+		<SimpleField name="fix" type="string"/>
+		<SimpleField name="sat" type="int"/>
+		<SimpleField name="hdop" type="double"/>
+		<SimpleField name="vdop" type="double"/>
+		<SimpleField name="pdop" type="double"/>
+		<SimpleField name="ageofdgpsdata" type="double"/>
+		<SimpleField name="dgpsid" type="int"/>
+		<SimpleField name="number" type="int"/>
+		<SimpleField name="link_href" type="string"/>
+		<SimpleField name="link_text" type="string"/>
+		<SimpleField name="link_type" type="string"/>
+		<Placemark>
+			<name>Parque Eolico</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#temp">
+					<SimpleData name="link_href">https://www.hikingproject.com/trail/7095556/parque-eolico</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>-7.758372,39.938126,756.94 -7.75795,39.938037,757.47 -7.757276,39.937678,758.7 -7.756369,39.937747,759.68 -7.755794,39.937127,760.03 -7.754797,39.936769,762.09 -7.754177,39.936005,766.71 -7.753548,39.93524,771.3 -7.752928,39.934909,774.34 -7.752236,39.934365,776.03 -7.751069,39.93409,776.69 -7.750494,39.933621,776.36 -7.749937,39.93274,774.5 -7.749694,39.931796,774.32 -7.74849,39.931307,781.8 -7.748176,39.931238,798.19 -7.747215,39.929702,818.47 -7.746254,39.928159,843.12 -7.745382,39.927408,863.37 -7.744143,39.925947,871.03 -7.743756,39.925665,871.56 -7.743612,39.925079,868.11 -7.743226,39.924694,863.82 -7.743038,39.924232,857.12 -7.74222,39.923219,852.46 -7.742013,39.922152,851.04 -7.741591,39.921855,846.39 -7.741169,39.921098,838.74 -7.740909,39.919685,831.59 -7.740486,39.9189,826.65 -7.740684,39.918927,822.68 -7.741448,39.919506,818.66 -7.741609,39.919678,813.95 -7.741861,39.919596,808.76 -7.74204,39.91932,804.08 -7.742049,39.918948,800.54 -7.741483,39.918445,798.67 -7.741322,39.91819,799.41 -7.741124,39.917556,803.29 -7.740927,39.917315,809.57 -7.740684,39.917377,816.81 -7.740495,39.917377,823.58 -7.740513,39.917467,828.29 -7.740334,39.917722,830.15 -7.740217,39.918218,830.27 -7.740307,39.918521,830.1</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Document>
+</kml>
